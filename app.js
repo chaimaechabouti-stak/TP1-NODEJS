@@ -1,5 +1,5 @@
 // 4-1 Importer les modules
-const {somme, produit, success, error} = require('functions')
+const {somme, produit, success, error} = require('./functions')
 const bodyParser = require('body-parser') 
 const express = require('express') 
 const app = express() 
